@@ -1,0 +1,25 @@
+{
+  "name": "adabazi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Behnamgh/telegram_ada.git"
+  },
+  "author": "Behnam G",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Behnamgh/telegram_ada/issues"
+  },
+  "homepage": "https://github.com/Behnamgh/telegram_ada#readme",
+  "dependencies": {
+    "mongodb": "^3.0.2",
+    "mongoose": "^5.0.5",
+    "telegraf": "^3.17.6",
+    "telegraf-session-mongo": "^1.1.0"
+  }
+}
