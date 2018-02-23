@@ -1,6 +1,6 @@
   bot.command('onetime', ({ reply }) =>
   reply('One time keyboard', Markup
-    .keyboard(['/simple', '/inline', '/pyramid'])
+    .keyboard(['/دو امتیازی', '/inline', '/pyramid'])
     .oneTime()
     .resize()
     .extra()
@@ -30,7 +30,7 @@ bot.command('pyramid', (ctx) => {
   ))
 })
 
-bot.command('simple', (ctx) => {
+bot.command('دو امتیازی', (ctx) => {
   return ctx.replyWithHTML('<b>Coke</b> or <i>Pepsi?</i>', Extra.markup(
     Markup.keyboard(['Coke', 'Pepsi'])
   ))
